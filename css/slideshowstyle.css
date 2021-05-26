@@ -1,0 +1,225 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Petit+Formal+Script&subset=latin,latin-ext);
+
+
+* {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+body {
+	background: #ddd;
+	color: #666;
+	font-size: 16px;
+	font-family: 'PT Sans Narrow';
+}
+
+a {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;		
+	transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;		
+	transition: all 0.4s ease-in-out;
+	color: #482745;
+}
+
+#status {
+	height: 30px;
+	background: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/856/856136.png');
+	border-bottom: 3px solid #482744;
+}
+
+	#information-bar {
+		background: #fff;
+		padding: 20px;
+	}
+
+	#middle {
+		background: #eee;
+	}
+
+	.section {
+		width: 900px;
+		margin: 0 auto;
+	}
+
+	#information-bar h1 {
+		text-align: left;
+		margin-bottom: 0;
+		font-size: 30px;
+		width: 50%;
+		color: #222;
+	}
+
+		#navigation {
+			float: right;
+			width: 50%;
+			color: #aaa;
+			text-transform: lowercase;
+			text-align: right;
+		}
+
+			#navigation a {
+				padding: 0 10px;
+				color: #555;
+				text-decoration: none;
+			}
+
+#content {
+	width: 900px;
+	margin: 0px auto;
+	padding: 20px 0;
+}
+
+#description {
+	width: 360px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+#description p {
+	text-indent: 20px;
+	padding-top: 10px;
+}
+
+#description ol {
+	margin-left: 20px;
+}
+
+.ie-not-supported {
+	font-family: 'Petit Formal Script';
+	text-decoration: none;
+	color: #1e7bcc;
+	padding: 5px;
+	margin: 10px;
+	display: block;
+}
+
+h1, h2, h3, strong {
+	color: #444;
+	font-family: 'Petit Formal Script';
+	font-weight: normal;
+	display: block;
+}
+
+p.desc strong {
+	font-size: 18px;
+	color: #fefefe;
+	padding-bottom: 5px;
+}
+
+img {
+	-webkit-transition: all 0.5s ease-in-out;
+	position: relative;
+	z-index: 4;
+	height: 400px;
+	width: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+	#show {
+		margin: 0 20px 20px 0;
+		float: left;
+	}
+
+	#code {
+		float: left;
+		border: 5px solid #CE9770;
+		background: #CE9770;
+		width: 400px;
+		padding: 10px;
+	}
+
+	li span {
+		background: #ddd;
+		padding: 0 3px;
+		font-family: monospace;
+		font-size: 12px;
+	}
+
+	h1 {
+		font-family: 'Petit Formal Script';
+		text-align: center;
+		font-size: 40px;
+		color: #402F3F;
+		margin-bottom: 10px;
+	}
+	
+.instruction {
+	text-align: center;
+	padding: 10px;
+}
+
+.instruction a {
+	color: #222;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+/* 2 lines */
+
+.lines_green {
+background: url('red.png') 0 0 no-repeat;
+display: block;
+margin: 0 auto;
+width: 265px;
+height: 94px;
+text-align: center;
+font-family: 'Petit Formal Script';
+font-size: 30px;
+color: #fefefe;
+text-decoration: none;
+line-height: 54px;
+opacity: 0.9;
+text-shadow: 2px 2px 3px #484848;
+}
+
+.lines_green:hover {
+opacity: 0.8;
+color: #fefefe;
+}
+
+.lines_green:active {
+opacity: 1;
+}
+
+.lines_green .file_name {
+display: block;
+font-size: 14px;
+text-shadow: 2px 2px 3px #383838;
+font-family: 'PT Sans Narrow';
+line-height: 14px;
+}
+
+#copy {
+text-align: center;
+margin: 10px;
+}
+
+	#copy a  {
+		color: #ab8c4d;
+		text-decoration: none;
+	}
+
+	#copy a:hover {
+		color: #222;
+	}
+
+	#copy a[href*="pudlo"] {
+		background: url('http://pudlo.be/wp-content/uploads/2012/01/shortcut.png') no-repeat top left;
+		display: inline-block;
+		font-weight: bold;
+		line-height: 32px;
+		padding-left: 37px;
+	}
